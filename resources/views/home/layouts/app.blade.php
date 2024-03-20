@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    @include('home.layouts.nav')
     @yield('content')
 
     <!--<< Scroll To Top >>-->

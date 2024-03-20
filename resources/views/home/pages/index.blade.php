@@ -4,108 +4,22 @@
 @section('content')
     <!--<< banner >>-->
     <section class="banner__section">
-        <!--<< Header v-1 >>-->
-        <header class="header-section">
-            <div class="container">
-                <div class="header-wrapper">
-                    <div class="main__logo">
-                        <a href="index.html" class="logo">
-                            <img src="{{ asset('home/img/logo/logo.png') }}" alt="logo">
-                        </a>
-                    </div>
-                    <ul class="main-menu">
-                        <li>
-                            <a href="index.html">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index.html#about">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index.html#prot">
-                                Work
-                            </a>
-                        </li>
-                        <li>
-                            <a href="index.html#services">
-                                Services
-                            </a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="service.html">
-                                        Service
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="service-details.html">
-                                        Service Details
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="index.html#testi">
-                                Testimonial
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)">
-                                Blog
-                            </a>
-                            <ul class="sub-menu">
-                                <li class="subtwohober">
-                                    <a href="blog.html">Blog</a>
-                                </li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="menu__components d-flex align-items-center">
-                        <a href="contact.html" class="d-flex fw-500 cmn--btn align-items-center gap-2">
-                            <span class="get__text">
-                                Let's Talk
-                            </span>
-                            <span>
-                                <i class="bi bi-arrow-right fz-20"></i>
-                            </span>
-                        </a>
-                        <div class="header-bar d-lg-none">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div class="remove__click">
-                            <i class="bi bi-list"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!--<< Header v-1 >>-->
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="banner__content">
                         <a href="index.html#0" class="bn__currently">
                             <span class="d-block">
-                                Currently available for freelance
+                                Atualmente disponível para freelance
                             </span>
                             <span class="d-flex gap-4 align-items-center">
-                                worldwide
+                                mundialmente
                                 <i class="bi bi-arrow-up-right"></i>
                             </span>
                         </a>
                         <h1>
                             <span class="hone"> Murillo Lima</span>
-                            <span class="d-block designers" data-text="Programador">Programador</span>
+                            <span class="d-block designers" data-text="Developer">Developer</span>
                         </h1>
                         <div class="video__area">
                             <img src="{{ asset('home/img/banner/bn-arrow.png') }}" class="vid__arrow" alt="img">
@@ -133,7 +47,7 @@
                     <img src="{{ asset('home/img/banner/dial.png') }}" alt="img">
                 </a>
                 <a href="index.html#0">
-                    (+02)-574-328-301
+                    (+55)-99991106799
                 </a>
             </div>
             <div class="right__infoscroll">
@@ -192,18 +106,18 @@
         <div class="marquee-inner to-left">
             <ul class="marqee-list d-flex">
                 <li class="marquee-item">
-                    <img src="{{ asset('home/img/banner/ts1.png') }}" alt="text-slide"> <span class="stroke-text"><img
-                            src="home/img/banner/ts2.png" alt="text-slide"></span>
-                    <img src="home/img/banner/ts3.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="home/img/banner/ts4.png" alt="text-slide"></span>
-                    <img src="home/img/banner/ts1.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="home/img/banner/ts2.png" alt="text-slide"></span>
-                    <img src="home/img/banner/ts3.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="home/img/banner/ts4.png" alt="text-slide"></span>
-                    <img src="home/img/banner/ts1.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="home/img/banner/ts2.png" alt="text-slide"></span>
-                    <img src="home/img/banner/ts3.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="home/img/banner/ts4.png" alt="text-slide"></span>
+                    <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
+                            src="home/img/banner/ts2.png" alt=""></span>
+                    <img src="home/img/banner/ts3.png" alt=""> <span class="stroke-text"><img
+                            src="home/img/banner/ts4.png" alt=""></span>
+                    <img src="home/img/banner/ts1.png" alt=""> <span class="stroke-text"><img
+                            src="home/img/banner/ts2.png" alt=""></span>
+                    <img src="home/img/banner/ts3.png" alt=""> <span class="stroke-text"><img
+                            src="home/img/banner/ts4.png" alt=""></span>
+                    <img src="home/img/banner/ts1.png" alt=""> <span class="stroke-text"><img
+                            src="home/img/banner/ts2.png" alt=""></span>
+                    <img src="home/img/banner/ts3.png" alt=""> <span class="stroke-text"><img
+                            src="home/img/banner/ts4.png" alt=""></span>
                 </li>
             </ul>
         </div>
@@ -214,12 +128,10 @@
     <section class="about__section pt-120 pb-120" id="about">
         <div class="container">
             <div class="personal__head text-center">
-                <img src="assets/img/about/section-star.png" class="mb-30" alt="star" data-aos="fade-up"
+                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star" data-aos="fade-up"
                     data-aos-duration="1000">
                 <p class="descrp" data-aos="fade-up" data-aos-duration="1500">
-                    I'm David Matias, I'm a Brand & Webflow Designer, Currently residing
-                    in the lush Victoria Street London, Matias operates globally and is
-                    ready to take on any design challenge.
+                    Sou Murillo Lima, trabalho de forma independente, atuo com o desenvolvimento web e mobile.
                 </p>
             </div>
             <div class="singletab">
@@ -243,7 +155,7 @@
                             <div class="row g-4 align-items-lg-start align-items-center">
                                 <div class="col-lg-5">
                                     <div class="about__onethumb" data-aos="zoom-in" data-aos-duration="500">
-                                        <img src="assets/img/about/personal-infothumb.png" alt="img">
+                                        <img src="{{ asset('home/img/about/personal-infothumb.png') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-7">
@@ -343,7 +255,7 @@
                             <div class="row g-4 align-items-lg-start align-items-center">
                                 <div class="col-lg-5">
                                     <div class="about__onethumb">
-                                        <img src="assets/img/about/personal-infothumb.png" alt="img">
+                                        <img src="{{ asset('home/img/about/personal-infothumb.png') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-7">
@@ -407,7 +319,7 @@
                             <div class="row g-4 align-items-lg-start align-items-center">
                                 <div class="col-lg-5">
                                     <div class="about__onethumb">
-                                        <img src="assets/img/about/personal-infothumb.png" alt="img">
+                                        <img src="{{ asset('home/img/about/personal-infothumb.png') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-7">
@@ -471,7 +383,7 @@
                             <div class="row g-4 align-items-lg-start align-items-center">
                                 <div class="col-lg-5">
                                     <div class="about__onethumb">
-                                        <img src="assets/img/about/personal-infothumb.png" alt="img">
+                                        <img src="{{ asset('home/img/about/personal-infothumb.png') }}" alt="img">
                                     </div>
                                 </div>
                                 <div class="col-lg-7">
@@ -489,7 +401,7 @@
                                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
                                                     <div class="abox myskill__item">
                                                         <div class="thumb">
-                                                            <img src="assets/img/about/figma.png" alt="img">
+                                                            <img src="{{ asset('home/img/about/figma.png') }}" alt="img">
                                                         </div>
                                                         <div class="mys">
                                                             <span class="ptext fz-18 mb-15 d-block">
@@ -504,7 +416,7 @@
                                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
                                                     <div class="abox myskill__item">
                                                         <div class="thumb">
-                                                            <img src="assets/img/about/word.png" alt="img">
+                                                            <img src="{{ asset('home/img/about/word.png') }}" alt="img">
                                                         </div>
                                                         <div class="mys">
                                                             <span class="ptext fz-18 mb-15 d-block">
@@ -519,7 +431,7 @@
                                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
                                                     <div class="abox myskill__item">
                                                         <div class="thumb">
-                                                            <img src="assets/img/about/html.png" alt="img">
+                                                            <img src="{{ asset('home/img/about/html.png') }}" alt="img">
                                                         </div>
                                                         <div class="mys">
                                                             <span class="ptext fz-18 mb-15 d-block">
@@ -534,7 +446,7 @@
                                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
                                                     <div class="abox myskill__item">
                                                         <div class="thumb">
-                                                            <img src="assets/img/about/boot.png" alt="img">
+                                                            <img src="{{ asset('home/img/about/boot.png') }}" alt="img">
                                                         </div>
                                                         <div class="mys">
                                                             <span class="ptext fz-18 mb-15 d-block">
@@ -564,18 +476,18 @@
         <div class="marquee-inner to-right">
             <ul class="marqee-list d-flex">
                 <li class="marquee-item">
-                    <img src="assets/img/banner/ts5.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="assets/img/banner/ts6.png" alt="text-slide"></span>
-                    <img src="assets/img/banner/ts7.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="assets/img/banner/ts8.png" alt="text-slide"></span>
-                    <img src="assets/img/banner/ts5.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="assets/img/banner/ts6.png" alt="text-slide"></span>
-                    <img src="assets/img/banner/ts7.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="assets/img/banner/ts8.png" alt="text-slide"></span>
-                    <img src="assets/img/banner/ts5.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="assets/img/banner/ts6.png" alt="text-slide"></span>
-                    <img src="assets/img/banner/ts7.png" alt="text-slide"> <span class="stroke-text"><img
-                            src="assets/img/banner/ts8.png" alt="text-slide"></span>
+                    <img src="home/img/banner/ts5.png" alt="text-p"> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts6.png') }}" alt="text-slide"></span>
+                    <img src="{{ asset('home/img/banner/ts7.png') }}" alt="text-slide"> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts8.png') }}" alt="text-slide"></span>
+                    <img src="{{ asset('home/img/banner/ts5.png') }}" alt="text-slide"> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts6.png') }}" alt="text-slide"></span>
+                    <img src="{{ asset('home/img/banner/ts7.png') }}" alt="text-slide"> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts8.png') }}" alt="text-slide"></span>
+                    <img src="{{ asset('home/img/banner/ts5.png') }}" alt="text-slide"> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts6.png') }}" alt="text-slide"></span>
+                    <img src="{{ asset('home/img/banner/ts7.png') }}" alt="text-slide"> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts8.png') }}" alt="text-slide"></span>
                 </li>
             </ul>
         </div>
@@ -727,7 +639,7 @@
                         </div>
                         <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="2200">
                             <a href="{{ asset('home/img/project/pro4.png') }}" class="thumb mb-30 imgc">
-                                <img src="assets/img/project/pro4.png" alt="img">
+                                <img src="{{ asset('home/img/project/pro4.png') }}" alt="img">
                             </a>
                             <div class="content d-flex align-items-center justify-content-between gap-2">
                                 <a href="protfolio.html" class="left__cont">
@@ -745,7 +657,7 @@
                         </div>
                         <div class="project__item" data-aos="fade-up" data-aos-duration="2200">
                             <a href="{{ asset('home/img/project/pro6.png') }}" class="thumb mb-30 imgc">
-                                <img src="assets/img/project/pro6.png" alt="img">
+                                <img src="{{ asset('home/img/project/pro6.png') }}" alt="img">
                             </a>
                             <div class="content d-flex align-items-center justify-content-between gap-2">
                                 <a href="protfolio.html" class="left__cont">
