@@ -71,9 +71,9 @@
                     <span></span>
                     <span></span>
                 </div>
-                <div class="remove__click">
+                {{-- <div class="remove__click">
                     <i class="bi bi-list"></i>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
