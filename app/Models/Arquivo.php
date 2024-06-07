@@ -11,6 +11,7 @@ class Arquivo extends Model
     protected $fillable = [
         'user_id',
         'title',
-        'file'
+        'file',
+        tedsadsa
     ];
 }
