@@ -107,16 +107,16 @@
                 <li class="marquee-item">
                     <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
                             src="home/img/banner/ts2.png" alt=""></span>
-                    <img src="home/img/banner/ts3.png" alt=""> <span class="stroke-text"><img
-                            src="home/img/banner/ts4.png" alt=""></span>
-                    <img src="home/img/banner/ts1.png" alt=""> <span class="stroke-text"><img
-                            src="home/img/banner/ts2.png" alt=""></span>
-                    <img src="home/img/banner/ts3.png" alt=""> <span class="stroke-text"><img
-                            src="home/img/banner/ts4.png" alt=""></span>
-                    <img src="home/img/banner/ts1.png" alt=""> <span class="stroke-text"><img
-                            src="home/img/banner/ts2.png" alt=""></span>
-                    <img src="home/img/banner/ts3.png" alt=""> <span class="stroke-text"><img
-                            src="home/img/banner/ts4.png" alt=""></span>
+                    <img src="{{ asset('home/img/banner/ts3.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span>
+                    <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts2.png') }}" alt=""></span>
+                    <img src="{{ asset('home/img/banner/ts3.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span>
+                    <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts2.png') }}" alt=""></span>
+                    <img src="{{ asset('home/img/banner/ts3.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span>
                 </li>
             </ul>
         </div>
@@ -127,8 +127,8 @@
     <section class="about__section pt-120 pb-120" id="about">
         <div class="container">
             <div class="personal__head text-center">
-                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star" data-aos="fade-up"
-                    data-aos-duration="1000">
+                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star"
+                    data-aos="fade-up" data-aos-duration="1000">
                 <p class="descrp" data-aos="fade-up" data-aos-duration="1500">
                     Sou Murillo Lima, trabalho de forma independente, atuo com o desenvolvimento web e mobile.
                 </p>
@@ -279,14 +279,14 @@
                                                 </span>
                                                 <div class="expri__cont">
                                                     <h4 class="mb-15 text-white">
-                                                        CREDI SHOP
+                                                        CREDI SHOP S/A
                                                     </h4>
                                                     <p class="fz-18 pra d-block">
                                                         Suporte têcnico
                                                     </p>
                                                 </div>
                                             </div>
-                                           
+
                                             {{-- <div class="exri__item">
                                                 <span class="fz-18 fw-500 base">
                                                     In 2023
@@ -331,14 +331,14 @@
                                                 </span>
                                                 <div class="expri__cont">
                                                     <h4 class="mb-15 text-white">
-                                                        CREDI SHOP
+                                                        CREDI SHOP S/A
                                                     </h4>
                                                     <p class="fz-18 pra d-block">
                                                         Suporte técnico
                                                     </p>
                                                 </div>
                                             </div>
-                                           
+
                                             {{-- <div class="exri__item">
                                                 <span class="fz-18 fw-500 base">
                                                     2016-2018
@@ -372,9 +372,17 @@
                                             Minhas habilidades
                                         </h2>
                                         <p>
-                                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam
-                                            quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi
-                                            ut aliquid ex ea autem velit esse quam nihil
+                                            HTML / CSS <br>
+                                            JavaScript <br>
+                                            Git e GitHub <br>
+                                            Linguagens back-end<br>
+                                            Arquitetura web<br>
+                                            HTTP e REST<br>
+                                            Armazenamento de banco de dados<br>
+                                            Habilidades básicas de design<br>
+                                            NPM<br>
+                                            Habilidades pessoais<br>
+                                            Desenvolvimento mobile
                                         </p>
                                         <div class="about__contactwrap">
                                             <div class="row g-4">
@@ -535,11 +543,10 @@
         <div class="container">
             <div class="project__head text-center">
                 <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
-                    Complete Project
+                    Projetos Completos
                 </span>
                 <h2 class="fw-500" data-aos="fade-down" data-aos-duration="2000">
-                    Look at my portfolio and give me
-                    your feedback
+                    Veja meu portfólio e me dê seu feedback
                 </h2>
             </div>
             <div class="row g-4">

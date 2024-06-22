@@ -7,11 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Administrativo - @yield('title')</title>
 
+
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ asset('admin/plugins/fontawesome-free/css/all.min.css') }}">
+    <link rel="stylesheet" href="admin/plugins/fontawesome-free/css/all.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bootstrap 4 -->
@@ -29,60 +30,19 @@
     <link rel="stylesheet" href="{{ asset('admin/plugins/daterangepicker/daterangepicker.css') }}">
     <!-- summernote -->
     <link rel="stylesheet" href="{{ asset('admin/plugins/summernote/summernote-bs4.min.css') }}">
-    <link rel="icon" type="image/png" href="{{ asset('home/assets/images/logo200x200px.png') }}" />
-    {{-- carteira --}}
-    <link rel="stylesheet" href="{{ asset('admin/dist/css/carteira.css') }}">
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".cpf").mask("999.999.999-99");
-
-            $("#cpf").blur(function() {
-                if ($("#cpf").val() == '') {
-                    $("#saida").html("Informe um CPF");
-                    return false;
-                }
-                if (validarCPF($("#cpf").val())) {
-                    $(".cpf").css('border-color', 'limegreen');
-                } else {
-                    $(".cpf").css('border-color', 'red');
-                }
-            });
-        });
-    </script>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
-        <!-- Preloader -->
-        @include('admin.layout.navbar')
-        @include('admin.layout.sidebar')
-
+        @include('admin.layout.nav')
         @yield('content')
         @include('admin.layout.footer')
     </div>
 
-    {{-- valica cpf --}}
-    <script>
-        function mascara(i) {
-
-            var v = i.value;
-
-            if (isNaN(v[v.length - 1])) { // impede entrar outro caractere que não seja número
-                i.value = v.substring(0, v.length - 1);
-                return;
-            }
-
-            i.setAttribute("maxlength", "14");
-            if (v.length == 3 || v.length == 7) i.value += ".";
-            if (v.length == 11) i.value += "-";
-
-        }
-    </script>
     <!-- jQuery -->
-    <script src="{{ asset('admin/plugins/jquery/jquery.min.js') }}"></script>
+    <script src="plugins/jquery/jquery.min.js"></script>
     <!-- jQuery UI 1.11.4 -->
-    <script src="{{ asset('admin/plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
         $.widget.bridge('uibutton', $.ui.button)
@@ -95,7 +55,7 @@
     <script src="{{ asset('admin/plugins/sparklines/sparkline.js') }}"></script>
     <!-- JQVMap -->
     <script src="{{ asset('admin/plugins/jqvmap/jquery.vmap.min.js') }}"></script>
-    <script src="{{ asset('admin/plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
+    <script src="admin/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
     <!-- jQuery Knob Chart -->
     <script src="{{ asset('admin/plugins/jquery-knob/jquery.knob.min.js') }}"></script>
     <!-- daterangepicker -->
@@ -110,7 +70,7 @@
     <!-- AdminLTE App -->
     <script src="{{ asset('admin/dist/js/adminlte.js') }}"></script>
     <!-- AdminLTE for demo purposes -->
-    {{-- <script src="{{ asset('admin/dist/js/demo.js') }}"></script> --}}
+    <script src="{{ asset('admin/dist/js/demo.js') }}"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
     <script src="{{ asset('admin/dist/js/pages/dashboard.js') }}"></script>
 </body>

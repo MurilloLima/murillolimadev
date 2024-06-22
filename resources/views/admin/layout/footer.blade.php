@@ -1,5 +1,5 @@
 <footer class="main-footer">
-    <strong>Copyright &copy; 2023-{{date('Y')}}.</strong>
+    <strong>Copyright &copy; 2024-{{date('Y')}}.</strong>
     Todos os direitos reservados.
     <div class="float-right d-none d-sm-inline-block">
         <b>Versão</b> 1.0.0
