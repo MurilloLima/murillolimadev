@@ -9,21 +9,21 @@
             </div>
             <ul class="main-menu">
                 <li>
-                    <a href="/">
+                    <a href="{{ route('home.pages.index') }}">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a href="#about">
+                    <a href="{{ route('home.pages.index') }}#about">
                         Sobre
                     </a>
                 </li>
                 <li>
-                    <a href="#prot">
+                    <a href="{{ route('home.pages.index') }}#prot">
                         Trabalhos
                     </a>
                 </li>
-                <li>
+                {{-- <li>
                     <a href="index.html#services">
                         Serviços
                     </a>
@@ -39,8 +39,8 @@
                             </a>
                         </li>
                     </ul>
-                </li>
-                <li>
+                </li> --}}
+                {{-- <li>
                     <a href="javascript:void(0)">
                         Blog
                     </a>
@@ -50,7 +50,7 @@
                         </li>
                         <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
-                </li>
+                </li> --}}
                 <li>
                     <a href="{{ route('home.pages.contatos') }}">
                         Contatos

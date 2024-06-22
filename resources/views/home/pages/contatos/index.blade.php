@@ -29,28 +29,29 @@
     <section class="contact__section">
         <div class="container">
             <div class="row g-4">
-                <div class="col-lg-8 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-lg-8 aos-animate" data-aos="fade-up" data-aos-duration="1000">
+                    
                     <div class="contact__box">
                         <div class="replay__box cmn__bg">
                             <h3>
                                 Deixe sua pergunta
                             </h3>
-                            <form action="contact.html#" name="enq" method="post" onsubmit="return validation();"
-                                class="row g-4">
+
+                            <form action="" method="post" onsubmit="return validation();" class="row g-4">
                                 <div class="col-lg-12">
-                                    <input type="text" name="name" placeholder="Nome">
+                                    <input type="text" name="name" placeholder="Name">
                                 </div>
                                 <div class="col-lg-12">
-                                    <input type="email" name="email" placeholder="email">
+                                    <input type="email" name="email" placeholder="Eamil">
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea name="subject" rows="5" placeholder="pergunta"></textarea>
+                                    <textarea name="message" rows="5" placeholder="Message"></textarea>
                                 </div>
                                 <div class="col-lg-12">
-                                    <button type="submit" value="Send message" name="submit"
+                                    <button type="submit" value="Enviar mensagem" name="submit"
                                         class=" border-0 d-flex fw-500 cmn--btn align-items-center gap-2">
                                         <span class="get__text">
-                                            Envia pergunta
+                                            Enviar mensagem
                                         </span>
                                         <span>
                                             <i class="bi bi-arrow-right fz-20"></i>

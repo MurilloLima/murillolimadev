@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\NoticiasController;
+use App\Http\Controllers\Home\ContatoController;
 use App\Http\Controllers\Home\HomeController as HomeHomeController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
@@ -9,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home.pages.index');
 Route::get('/sobre', [HomeController::class, 'sobre'])->name('home.pages.sobre');
 Route::get('/contatos', [HomeController::class, 'contatos'])->name('home.pages.contatos');
-Route::post('/contatos/store', [HomeController::class, 'store'])->name('home.pages.contact.store');
+Route::post('/contatos/store', [ContatoController::class, 'store'])->name('home.pages.contact.store');
 
 
 Route::get('/dashboard', function () {
