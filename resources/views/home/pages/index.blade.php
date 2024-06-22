@@ -8,7 +8,7 @@
             <div class="row g-4">
                 <div class="col-lg-8">
                     <div class="banner__content">
-                        <a href="index.html#0" class="bn__currently">
+                        <a href="#" class="bn__currently">
                             <span class="d-block">
                                 Atualmente disponível para freelance
                             </span>
@@ -28,8 +28,7 @@
                                 <i class="bi bi-play-fill"></i>
                             </a>
                             <span class="proces">
-                                Work
-                                Process
+                                Processos code
                             </span>
                         </div>
                     </div>
@@ -137,16 +136,16 @@
             <div class="singletab">
                 <ul class="tablinks">
                     <li class="nav-links active">
-                        <button class="tablink">About Me</button>
+                        <button class="tablink">Sobre</button>
                     </li>
                     <li class="nav-links">
-                        <button class="tablink">Experience</button>
+                        <button class="tablink">Experiências</button>
                     </li>
                     <li class="nav-links">
-                        <button class="tablink">Education</button>
+                        <button class="tablink">Educação</button>
                     </li>
                     <li class="nav-links">
-                        <button class="tablink">Skills</button>
+                        <button class="tablink">Habilidades</button>
                     </li>
                 </ul>
                 <div class="tabcontents">
@@ -161,12 +160,12 @@
                                 <div class="col-lg-7">
                                     <div class="about__onecontent">
                                         <h2 class="h2-head" data-aos="fade-up" data-aos-duration="500">
-                                            Personal Info
+                                            Informação pessoal
                                         </h2>
                                         <p class="p-descrip" data-aos="fade-up" data-aos-duration="500">
-                                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam
-                                            quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi
-                                            ut aliquid ex ea autem velit esse quam nihil
+                                            Formado em Sistema de informação na faculdade FACIMP, atualmente atuo como
+                                            freelancer, oferecendo soluções completas para sistemas web, mobile, desktop, e
+                                            sistemas integrados.
                                         </p>
                                         <div class="about__contactwrap">
                                             <div class="row g-4">
@@ -174,11 +173,11 @@
                                                     <div class="abox">
                                                         <div class="about__contbox__item">
                                                             <span class="ptext fz-18 mb-20 d-block">
-                                                                Email
+                                                                E-mail
                                                             </span>
-                                                            <a href="index.html#0">
+                                                            <a href="">
                                                                 <span class="__cf_email__"
-                                                                    data-cfemail="315c504558504208080871565c50585d1f525e5c">[email&#160;protected]</span>
+                                                                    data-cfemail="">contato@murillolimadev.com.br</span>
                                                             </a>
                                                         </div>
                                                     </div>
@@ -187,10 +186,10 @@
                                                     <div class="abox">
                                                         <div class="about__contbox__item">
                                                             <span class="ptext fz-18 mb-20 d-block">
-                                                                Phone
+                                                                Telefone
                                                             </span>
-                                                            <a href="index.html#0">
-                                                                +(2) 871 382 023
+                                                            <a href="">
+                                                                +(55) 99 99110-6799
                                                             </a>
                                                         </div>
                                                     </div>
@@ -199,10 +198,10 @@
                                                     <div class="abox">
                                                         <div class="about__contbox__item">
                                                             <span class="ptext fz-18 mb-20 d-block">
-                                                                Address
+                                                                Endereço
                                                             </span>
                                                             <a href="index.html#0">
-                                                                Victoria Street London,
+                                                                Centro - Estreito-MA
                                                             </a>
                                                         </div>
                                                     </div>
@@ -261,41 +260,34 @@
                                 <div class="col-lg-7">
                                     <div class="about__onecontent">
                                         <h2>
-                                            My Experience
+                                            Minhas Experiências
                                         </h2>
                                         <p>
-                                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam
-                                            quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi
-                                            ut aliquid ex ea autem velit esse quam nihil
+                                            Durante meu percurso profissional de 6 anos como desenvolvedor full stack,
+                                            trabalhei em diferentes projetos desafiadores. Um desses projetos foi a criação
+                                            de um sistema de gerenciamento de vendas para uma empresa de e-commerce. Nesse
+                                            projeto, tive a oportunidade de aplicar minhas habilidades de desenvolvimento
+                                            tanto no front-end, utilizando HTML, CSS e JavaScript, quanto no back-end,
+                                            utilizando PHP e MySQL. Além disso, pude trabalhar em equipe, colaborando com
+                                            outros desenvolvedores e designers para entregar um produto final de alta
+                                            qualidade.
                                         </p>
                                         <div class="exprience__box mt-30">
                                             <div class="exri__item">
                                                 <span class="fz-18 fw-500 base">
-                                                    In 2011
+                                                    Em 2008
                                                 </span>
                                                 <div class="expri__cont">
                                                     <h4 class="mb-15 text-white">
-                                                        Software Engineer
+                                                        CREDI SHOP
                                                     </h4>
                                                     <p class="fz-18 pra d-block">
-                                                        UI Head & Manager
+                                                        Suporte têcnico
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="exri__item">
-                                                <span class="fz-18 fw-500 base">
-                                                    In 2016
-                                                </span>
-                                                <div class="expri__cont">
-                                                    <h4 class="mb-15 text-white">
-                                                        Product Designer
-                                                    </h4>
-                                                    <p class="fz-18 pra d-block">
-                                                        Head of Department
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="exri__item">
+                                           
+                                            {{-- <div class="exri__item">
                                                 <span class="fz-18 fw-500 base">
                                                     In 2023
                                                 </span>
@@ -307,7 +299,7 @@
                                                         Fiverr.com
                                                     </p>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -325,41 +317,29 @@
                                 <div class="col-lg-7">
                                     <div class="about__onecontent">
                                         <h2>
-                                            My Education
+                                            Minha educação
                                         </h2>
                                         <p>
-                                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam
-                                            quaerats voluptatem. Ut enim ad minima veniam, exercitationem laboriosam, nisi
-                                            ut aliquid ex ea autem velit esse quam nihil
+                                            Formado em Sistema de informação na faculdade FACIMP, atualmente atuo como
+                                            freelancer, oferecendo soluções completas para sistemas web, mobile, desktop, e
+                                            sistemas integrados.
                                         </p>
                                         <div class="exprience__box mt-30">
                                             <div class="exri__item">
                                                 <span class="fz-18 fw-500 base">
-                                                    2011-2013
+                                                    2008-2010
                                                 </span>
                                                 <div class="expri__cont">
                                                     <h4 class="mb-15 text-white">
-                                                        Programming Course
+                                                        CREDI SHOP
                                                     </h4>
                                                     <p class="fz-18 pra d-block">
-                                                        New York University
+                                                        Suporte técnico
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="exri__item">
-                                                <span class="fz-18 fw-500 base">
-                                                    2013-2016
-                                                </span>
-                                                <div class="expri__cont">
-                                                    <h4 class="mb-15 text-white">
-                                                        University of Design
-                                                    </h4>
-                                                    <p class="fz-18 pra d-block">
-                                                        Kingston, United States
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="exri__item">
+                                           
+                                            {{-- <div class="exri__item">
                                                 <span class="fz-18 fw-500 base">
                                                     2016-2018
                                                 </span>
@@ -371,7 +351,7 @@
                                                         New York University
                                                     </p>
                                                 </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -389,7 +369,7 @@
                                 <div class="col-lg-7">
                                     <div class="about__onecontent">
                                         <h2>
-                                            My Skills
+                                            Minhas habilidades
                                         </h2>
                                         <p>
                                             Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam
@@ -401,44 +381,15 @@
                                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
                                                     <div class="abox myskill__item">
                                                         <div class="thumb">
-                                                            <img src="{{ asset('home/img/about/figma.png') }}" alt="img">
-                                                        </div>
-                                                        <div class="mys">
-                                                            <span class="ptext fz-18 mb-15 d-block">
-                                                                Figma
-                                                            </span>
-                                                            <h1 class="fw-600">
-                                                                90%
-                                                            </h1>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
-                                                    <div class="abox myskill__item">
-                                                        <div class="thumb">
-                                                            <img src="{{ asset('home/img/about/word.png') }}" alt="img">
-                                                        </div>
-                                                        <div class="mys">
-                                                            <span class="ptext fz-18 mb-15 d-block">
-                                                                Wordpress
-                                                            </span>
-                                                            <h1 class="fw-600">
-                                                                95%
-                                                            </h1>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
-                                                    <div class="abox myskill__item">
-                                                        <div class="thumb">
-                                                            <img src="{{ asset('home/img/about/html.png') }}" alt="img">
+                                                            <img src="{{ asset('home/img/about/figma.png') }}"
+                                                                alt="img">
                                                         </div>
                                                         <div class="mys">
                                                             <span class="ptext fz-18 mb-15 d-block">
                                                                 HTML
                                                             </span>
                                                             <h1 class="fw-600">
-                                                                85%
+                                                                98%
                                                             </h1>
                                                         </div>
                                                     </div>
@@ -446,7 +397,40 @@
                                                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
                                                     <div class="abox myskill__item">
                                                         <div class="thumb">
-                                                            <img src="{{ asset('home/img/about/boot.png') }}" alt="img">
+                                                            <img src="{{ asset('home/img/about/word.png') }}"
+                                                                alt="img">
+                                                        </div>
+                                                        <div class="mys">
+                                                            <span class="ptext fz-18 mb-15 d-block">
+                                                                PHP
+                                                            </span>
+                                                            <h1 class="fw-600">
+                                                                82%
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                                    <div class="abox myskill__item">
+                                                        <div class="thumb">
+                                                            <img src="{{ asset('home/img/about/html.png') }}"
+                                                                alt="img">
+                                                        </div>
+                                                        <div class="mys">
+                                                            <span class="ptext fz-18 mb-15 d-block">
+                                                                HTML
+                                                            </span>
+                                                            <h1 class="fw-600">
+                                                                98%
+                                                            </h1>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
+                                                    <div class="abox myskill__item">
+                                                        <div class="thumb">
+                                                            <img src="{{ asset('home/img/about/boot.png') }}"
+                                                                alt="img">
                                                         </div>
                                                         <div class="mys">
                                                             <span class="ptext fz-18 mb-15 d-block">
@@ -898,7 +882,7 @@
         <div class="container">
             <div class="project__head text-center">
                 <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
-                    Working Process
+                    Processo de trabalho
                 </span>
                 <h2 class="fw-500" data-aos="fade-up" data-aos-duration="1000">
                     Your dream website in just

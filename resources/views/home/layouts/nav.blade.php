@@ -3,7 +3,7 @@
     <div class="container">
         <div class="header-wrapper">
             <div class="main__logo">
-                <a href="index.html" class="logo">
+                <a href="/" class="logo">
                     <img src="{{ asset('home/img/logo/logo.png') }}" alt="logo">
                 </a>
             </div>
@@ -14,23 +14,23 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ route('home.pages.sobre') }}">
+                    <a href="#about">
                         Sobre
                     </a>
                 </li>
                 <li>
-                    <a href="index.html#prot">
+                    <a href="#prot">
                         Trabalhos
                     </a>
                 </li>
                 <li>
                     <a href="index.html#services">
-                        Servicos
+                        Serviços
                     </a>
                     <ul class="sub-menu">
                         <li>
                             <a href="service.html">
-                                Service
+                                Serviços
                             </a>
                         </li>
                         <li>
@@ -58,7 +58,7 @@
                 </li>
             </ul>
             <div class="menu__components d-flex align-items-center">
-                <a href="contact.html" class="d-flex fw-500 cmn--btn align-items-center gap-2">
+                <a href="https://web.whatsapp.com/send?phone=5599991106799" class="d-flex fw-500 cmn--btn align-items-center gap-2">
                     <span class="get__text">
                         Whatsapp
                     </span>

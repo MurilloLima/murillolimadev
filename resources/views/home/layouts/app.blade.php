@@ -21,6 +21,19 @@
 </head>
 
 <body>
+    <!--<< Preloader >>-->
+    <div class="preloader__matias">
+        <div class="box text-center">
+            <div class="matias mb-10">
+                <img src="{{ asset('home/img/banner/banner-man.png') }}" alt="img">
+            </div>
+            <span class="fz-30 mati fw-600 text-uppercase">
+                Murillo Lima
+            </span>
+        </div>
+    </div>
+    <!--<< Preloader >>-->
+
     @include('home.layouts.nav')
     @yield('content')
 

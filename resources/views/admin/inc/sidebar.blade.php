@@ -36,13 +36,13 @@
                 <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
                 <li class="nav-item">
-                    <a href="{{ route('project.index') }}" class="nav-link">
+                    <a href="" class="nav-link">
                         <i class="nav-icon fa fa-list"></i>
                         <p>Projetos</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('dashboard') }}" class="nav-link">
+                    <a href="" class="nav-link">
                         <i class="nav-icon fas fa-chart-pie"></i>
                         <p>
                             Contatos
