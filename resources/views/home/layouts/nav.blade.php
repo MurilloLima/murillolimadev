@@ -23,24 +23,8 @@
                         Trabalhos
                     </a>
                 </li>
-                {{-- <li>
-                    <a href="index.html#services">
-                        Serviços
-                    </a>
-                    <ul class="sub-menu">
-                        <li>
-                            <a href="service.html">
-                                Serviços
-                            </a>
-                        </li>
-                        <li>
-                            <a href="service-details.html">
-                                Service Details
-                            </a>
-                        </li>
-                    </ul>
-                </li> --}}
-                {{-- <li>
+                
+                <li>
                     <a href="javascript:void(0)">
                         Blog
                     </a>
@@ -50,7 +34,7 @@
                         </li>
                         <li><a href="blog-details.html">Blog Details</a></li>
                     </ul>
-                </li> --}}
+                </li>
                 <li>
                     <a href="{{ route('home.pages.contatos') }}">
                         Contatos
