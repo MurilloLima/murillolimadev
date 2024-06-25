@@ -32,6 +32,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/admin/projetos', [ProjetosController::class, 'index'])->name('admn.pages.projetos.index');
     Route::get('/admin/projeto/create', [ProjetosController::class, 'create'])->name('admn.pages.projetos.create');
     Route::post('/admin/projeto/store', [ProjetosController::class, 'store'])->name('admn.pages.projetos.store');
+    Route::delete('/admin/projeto/delete/{id}', [ProjetosController::class, 'destroy'])->name('admn.pages.projetos.destroy');
 
     // sair
     Route::get('/sair', [HomeController::class, 'destroy'])->name('sair');

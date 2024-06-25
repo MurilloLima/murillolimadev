@@ -69,7 +69,16 @@
                                                         <td>{{ $item->tec }}</td>
                                                         <td>{{ $item->desc }}</td>
                                                         <td>
-                                                            
+                                                            <form onsubmit="return confirm('Deseja excluir?');"
+                                                                action="{{ route('admn.pages.projetos.destroy', $item->id) }}"
+                                                                method="POST">
+                                                                @csrf
+                                                                @method('DELETE')
+                                                                <button type="submit" class="btn btn-sm"
+                                                                    style="height: 26px">
+                                                                    <i class="fa fa-trash"></i>
+                                                                </button>
+                                                            </form>
                                                         </td>
                                                     </tr>
                                                 @endforeach

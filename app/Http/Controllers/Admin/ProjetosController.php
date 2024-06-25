@@ -83,6 +83,7 @@ class ProjetosController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $this->projeto->destroy($id);
+        return redirect()->back()->with('msg', 'Deletada com sucesso!');
     }
 }
