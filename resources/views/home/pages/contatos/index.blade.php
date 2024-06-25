@@ -1,6 +1,7 @@
 @extends('home.layouts.app')
 @section('title', 'Contatos')
 @section('content')
+
     <div class="container pt-120 pb-120">
         <div class="row g-4 justify-content-center">
             <div class="col-lg-8">
@@ -30,7 +31,7 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-8 aos-animate" data-aos="fade-up" data-aos-duration="1000">
-                    
+
                     <div class="contact__box">
                         <div class="replay__box cmn__bg">
                             <h3>
@@ -97,4 +98,4 @@
             </div>
         </div>
     </section>
-@endsection
+@endsection 

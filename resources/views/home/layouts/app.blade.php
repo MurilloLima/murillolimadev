@@ -53,7 +53,7 @@
     <script src="{{ asset('home/js/viewport.jquery.js') }}"></script>
     <!--<< Bootstrap Js >>-->
     <script src="{{ asset('home/js/bootstrap.min.js') }}"></script>
-    <!--<< Aos animation Js >>-->
+    <!--<< Aos animation loading Js >>-->
     <script src="{{ asset('home/js/aos.js') }}"></script>
     <!--<< Nice Select Js >>-->
     <script src="{{ asset('home/js/jquery.nice-select.min.js') }}"></script>

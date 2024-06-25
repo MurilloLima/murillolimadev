@@ -13,6 +13,6 @@ class Projeto extends Model
         'name',
         'desc',
         'tec',
-        'img'
+        'image'
     ];
 }

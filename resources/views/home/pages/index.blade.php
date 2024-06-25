@@ -464,7 +464,7 @@
     <!--<< about personal >>-->
 
     <!--<< text slide v2 >>-->
-    <div class="marquee-wrapper text-slider">
+    {{-- <div class="marquee-wrapper text-slider">
         <div class="marquee-inner to-right">
             <ul class="marqee-list d-flex">
                 <li class="marquee-item">
@@ -483,11 +483,11 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> --}}
     <!--<< text slide v2 >>-->
 
     <!--<< our aword >>-->
-    <div class="awoard__section">
+    {{-- <div class="awoard__section">
         <div class="container">
             <div class="award__wraper table-responsive" data-aos="fade-up" data-aos-duration="2000">
                 <table class="table w-100">
@@ -535,7 +535,7 @@
                 </table>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--<< our aword >>-->
 
     <!--<< project one >>-->

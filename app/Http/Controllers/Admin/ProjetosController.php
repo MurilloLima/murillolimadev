@@ -1,19 +1,24 @@
 <?php
 
-namespace App\Http\Controllers\Home;
+namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Contato;
+use App\Models\Projeto;
 use Illuminate\Http\Request;
 
-class ContatoController extends Controller
+class ProjetosController extends Controller
 {
+    private $projeto;
+    public function __construct(Projeto $projeto)
+    {
+        $this->projeto = $projeto;
+    }
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        return view('admin.pages.project.index');
     }
 
     /**
@@ -21,7 +26,7 @@ class ContatoController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.pages.project.create');
     }
 
     /**
@@ -31,18 +36,22 @@ class ContatoController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'email' => 'required',
-            'subject' => 'required',
-            'content' => 'required',
-            
+            'tec' => 'required',
+            'desc' => 'required',
+            'image' => 'required',
         ]);
-        Contato::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'subject' => $request->subject,
-            'content' => $request->subject,
-        ]);
-        return redirect()->back()->with('msg', 'Agendamento criado sucesso!');
+
+
+        if ($request->hasFile('image') && $request->file('image')->isValid()) {
+            $imageName = time() . '.' . $request->image->extension();
+            $request->image->move(public_path('upload/projetos'), $imageName);
+            $this->projeto->name = $request->name;
+            $this->projeto->tec = $request->tec;
+            $this->projeto->desc = $request->desc;
+            $this->projeto->image = $imageName;
+            $this->projeto->save();
+            return redirect()->back()->with('msg', 'Cadastrado com sucesso!');
+        }   
     }
 
     /**
