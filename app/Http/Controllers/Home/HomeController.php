@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Home;
 use App\Http\Controllers\Controller;
 use App\Models\Congresso;
 use App\Models\Noticia;
+use App\Models\Projeto;
 use App\Models\Reunioe;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -16,10 +17,9 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        $noticias = Noticia::orderBy('id', 'DESC')->paginate(6);
-        $congressos = Congresso::orderBy('id', 'DESC')->paginate(4);
-        $reuniao = Reunioe::orderBy('id', 'DESC')->paginate(4);
-        return view('home.pages.index', compact(['noticias', 'congressos', 'reuniao']));
+        $projetos1 = Projeto::latest()->skip(0)->take(3)->get();
+        $projetos2 = Projeto::latest()->skip(3)->take(3)->get();
+        return view('home.pages.index', compact(['projetos1, projetos2']));
     }
     /**
      * Show the form for creating a new resource.

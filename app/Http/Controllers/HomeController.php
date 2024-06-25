@@ -14,8 +14,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $projetos = Projeto::orderby('id','DESC')->get();
-        return view('home.pages.index', compact('projetos'));
+        $projetos1 = Projeto::latest()->skip(0)->take(2)->get();
+        $projetos2 = Projeto::latest()->skip(3)->take(2)->get();
+        return view('home.pages.index', compact(['projetos1', 'projetos2']));
     }
 
     /**

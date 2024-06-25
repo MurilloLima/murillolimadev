@@ -552,118 +552,52 @@
             <div class="row g-4">
                 <div class="col-lg-6 col-md-6">
                     <div class="project__wrapone">
-                        <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="{{ asset('home/img/project/pro1.png') }}" class="thumb mb-30 imgc">
-                                <img src="{{ asset('home/img/project/pro1.png') }}" alt="img">
-                            </a>
-                            <div class="content d-flex align-items-center justify-content-between gap-2">
-                                <a href="protfolio.html" class="left__cont">
-                                    <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
-                                        Product Design
-                                    </span>
-                                    <h3>
-                                        Brand Identity & Motion Design
-                                    </h3>
+                        @foreach ($projetos1 as $item)
+                            <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
+                                <a href="{{ asset('home/img/project/pro1.png') }}" class="thumb mb-30 imgc">
+                                    <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
                                 </a>
-                                <a href="{{ asset('home/img/project/pro1.png') }}" class="common__icon imgc">
-                                    <i class="bi bi-arrow-up-right"></i>
-                                </a>
+                                <div class="content d-flex align-items-center justify-content-between gap-2">
+                                    <a href="protfolio.html" class="left__cont">
+                                        <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
+                                            {{ $item->name }}
+                                        </span>
+                                        <h3>
+                                            {{ $item->tec }}
+                                        </h3>
+                                    </a>
+                                    <a href="{{ asset('upload/projetos/' . $item->image) }}" class="common__icon imgc">
+                                        <i class="bi bi-arrow-up-right"></i>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="{{ asset('home/img/project/pro3.png') }}" class="thumb mb-30 imgc">
-                                <img src="{{ asset('home/img/project/pro3.png') }}" alt="img">
-                            </a>
-                            <div class="content d-flex align-items-center justify-content-between gap-2">
-                                <a href="protfolio.html" class="left__cont">
-                                    <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
-                                        Product Design
-                                    </span>
-                                    <h3>
-                                        Design & Branding Mokeup
-                                    </h3>
-                                </a>
-                                <a href="{{ asset('home/img/project/pro3.png') }}" class="common__icon imgc">
-                                    <i class="bi bi-arrow-up-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project__item" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="{{ asset('home/img/project/pro5.png') }}" class="thumb mb-30 imgc">
-                                <img src="{{ asset('home/img/project/pro5.png') }}" alt="img">
-                            </a>
-                            <div class="content d-flex align-items-center justify-content-between gap-2">
-                                <a href="protfolio.html" class="left__cont">
-                                    <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
-                                        Ui/ux Design
-                                    </span>
-                                    <h3>
-                                        Mobile Application Development
-                                    </h3>
-                                </a>
-                                <a href="{{ asset('home/img/project/pro5.png') }}" class="common__icon imgc">
-                                    <i class="bi bi-arrow-up-right"></i>
-                                </a>
-                            </div>
-                        </div>
+                        @endforeach
+
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
+
                     <div class="project__wraptwo">
-                        <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="2200">
-                            <a href="{{ asset('home/img/project/pro2.png') }}" class="thumb mb-30 imgc">
-                                <img src="{{ asset('home/img/project/pro2.png') }}" alt="img">
-                            </a>
-                            <div class="content d-flex align-items-center justify-content-between gap-2">
-                                <a href="protfolio.html" class="left__cont">
-                                    <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
-                                        Creative
-                                    </span>
-                                    <h3>
-                                        Paper & Book Covers Design
-                                    </h3>
+                        @foreach ($projetos2 as $item)
+                            <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="2200">
+                                <a href="{{ asset('home/img/project/pro2.png') }}" class="thumb mb-30 imgc">
+                                    <img src="{{ asset('home/img/project/pro2.png') }}" alt="img">
                                 </a>
-                                <a href="{{ asset('home/img/project/pro2.png') }}" class="common__icon imgc">
-                                    <i class="bi bi-arrow-up-right"></i>
-                                </a>
+                                <div class="content d-flex align-items-center justify-content-between gap-2">
+                                    <a href="protfolio.html" class="left__cont">
+                                        <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
+                                            Creative
+                                        </span>
+                                        <h3>
+                                            Paper & Book Covers Design
+                                        </h3>
+                                    </a>
+                                    <a href="{{ asset('home/img/project/pro2.png') }}" class="common__icon imgc">
+                                        <i class="bi bi-arrow-up-right"></i>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="2200">
-                            <a href="{{ asset('home/img/project/pro4.png') }}" class="thumb mb-30 imgc">
-                                <img src="{{ asset('home/img/project/pro4.png') }}" alt="img">
-                            </a>
-                            <div class="content d-flex align-items-center justify-content-between gap-2">
-                                <a href="protfolio.html" class="left__cont">
-                                    <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
-                                        Design & Branding
-                                    </span>
-                                    <h3>
-                                        Creative Graphics Design
-                                    </h3>
-                                </a>
-                                <a href="{{ asset('home/img/project/pro4.png') }}" class="common__icon imgc">
-                                    <i class="bi bi-arrow-up-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="project__item" data-aos="fade-up" data-aos-duration="2200">
-                            <a href="{{ asset('home/img/project/pro6.png') }}" class="thumb mb-30 imgc">
-                                <img src="{{ asset('home/img/project/pro6.png') }}" alt="img">
-                            </a>
-                            <div class="content d-flex align-items-center justify-content-between gap-2">
-                                <a href="protfolio.html" class="left__cont">
-                                    <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
-                                        MOCKUP DESIGN
-                                    </span>
-                                    <h3>
-                                        Brand Identity & Motion Design
-                                    </h3>
-                                </a>
-                                <a href="{{ asset('home/img/project/pro6.png') }}" class="common__icon imgc">
-                                    <i class="bi bi-arrow-up-right"></i>
-                                </a>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
