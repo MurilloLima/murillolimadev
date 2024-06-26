@@ -17,6 +17,7 @@ return new class extends Migration
             $table->longText('desc');
             $table->string('tec');
             $table->string('image');
+            $table->string('url');
             $table->timestamps();
         });
     }
