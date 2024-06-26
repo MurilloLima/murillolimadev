@@ -17,9 +17,7 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        $projetos1 = Projeto::latest()->skip(0)->take(3)->get();
-        $projetos2 = Projeto::latest()->skip(3)->take(3)->get();
-        return view('home.pages.index', compact(['projetos1, projetos2']));
+        
     }
     /**
      * Show the form for creating a new resource.

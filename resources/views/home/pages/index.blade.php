@@ -554,11 +554,11 @@
                     <div class="project__wrapone">
                         @foreach ($projetos1 as $item)
                             <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
-                                <a href="{{ asset('home/img/project/pro1.png') }}" class="thumb mb-30 imgc">
+                                <a href="{{ asset('upload/projetos/' . $item->image) }}" class="thumb mb-30 imgc">
                                     <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
                                 </a>
                                 <div class="content d-flex align-items-center justify-content-between gap-2">
-                                    <a href="protfolio.html" class="left__cont">
+                                    <a href="" class="left__cont" target="_blank">
                                         <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
                                             {{ $item->name }}
                                         </span>
@@ -580,19 +580,19 @@
                     <div class="project__wraptwo">
                         @foreach ($projetos2 as $item)
                             <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="2200">
-                                <a href="{{ asset('home/img/project/pro2.png') }}" class="thumb mb-30 imgc">
-                                    <img src="{{ asset('home/img/project/pro2.png') }}" alt="img">
+                                <a href="{{ asset('upload/projetos/' . $item->image) }}" class="thumb mb-30 imgc">
+                                    <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
                                 </a>
                                 <div class="content d-flex align-items-center justify-content-between gap-2">
-                                    <a href="protfolio.html" class="left__cont">
+                                    <a href="" class="left__cont" target="_blank">
                                         <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
-                                            Creative
+                                            {{ $item->name }}
                                         </span>
                                         <h3>
-                                            Paper & Book Covers Design
+                                            {{ $item->tec }}
                                         </h3>
                                     </a>
-                                    <a href="{{ asset('home/img/project/pro2.png') }}" class="common__icon imgc">
+                                    <a href="{{ asset('upload/projetos/' . $item->image) }}" class="common__icon imgc">
                                         <i class="bi bi-arrow-up-right"></i>
                                     </a>
                                 </div>

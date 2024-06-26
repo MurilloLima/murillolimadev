@@ -14,8 +14,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $projetos1 = Projeto::latest()->skip(0)->take(2)->get();
-        $projetos2 = Projeto::latest()->skip(3)->take(2)->get();
+        $projetos1 = Projeto::latest()->skip(0)->take(3)->get();
+        $projetos2 = Projeto::latest()->skip(2)->take(3)->get();
         return view('home.pages.index', compact(['projetos1', 'projetos2']));
     }
 
@@ -69,5 +69,4 @@ class HomeController extends Controller
         $request->session()->regenerateToken();
         return redirect('/');
     }
-
 }
