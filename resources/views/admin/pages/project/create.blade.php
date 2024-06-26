@@ -77,6 +77,11 @@
                                             placeholder="">
                                     </div>
                                     <div class="form-group">
+                                        <label for="exampleInputPassword1">Url</label>
+                                        <input type="text" class="form-control" name="url" id=""
+                                            placeholder="">
+                                    </div>
+                                    <div class="form-group">
                                         <label for="exampleInputFile">Imagem</label>
                                         <div class="input-group">
                                             <div class="custom-file">

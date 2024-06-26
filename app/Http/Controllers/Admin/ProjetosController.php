@@ -39,6 +39,7 @@ class ProjetosController extends Controller
             'tec' => 'required',
             'desc' => 'required',
             'image' => 'required',
+            'url' => 'required'
         ]);
 
 
@@ -49,6 +50,7 @@ class ProjetosController extends Controller
             $this->projeto->tec = $request->tec;
             $this->projeto->desc = $request->desc;
             $this->projeto->image = $imageName;
+            $this->projeto->url = $request->url;
             $this->projeto->save();
             return redirect()->back()->with('msg', 'Cadastrado com sucesso!');
         }   
