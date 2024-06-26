@@ -558,7 +558,7 @@
                                     <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
                                 </a>
                                 <div class="content d-flex align-items-center justify-content-between gap-2">
-                                    <a href="" class="left__cont" target="_blank">
+                                    <a href="{{ $item->url }}" class="left__cont" target="_blank">
                                         <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
                                             {{ $item->name }}
                                         </span>
@@ -584,7 +584,7 @@
                                     <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
                                 </a>
                                 <div class="content d-flex align-items-center justify-content-between gap-2">
-                                    <a href="" class="left__cont" target="_blank">
+                                    <a href="{{ $item->url }}" class="left__cont" target="_blank">
                                         <span class="base mb-2 mb-xxl-3 d-block text-uppercase">
                                             {{ $item->name }}
                                         </span>
