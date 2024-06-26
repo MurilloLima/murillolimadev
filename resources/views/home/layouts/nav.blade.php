@@ -28,12 +28,12 @@
                     <a href="javascript:void(0)">
                         Blog
                     </a>
-                    <ul class="sub-menu">
+                    {{-- <ul class="sub-menu">
                         <li class="subtwohober">
                             <a href="blog.html">Blog</a>
                         </li>
                         <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
+                    </ul> --}}
                 </li>
                 <li>
                     <a href="{{ route('home.pages.contatos') }}">

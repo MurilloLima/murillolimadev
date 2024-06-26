@@ -545,7 +545,7 @@
                 <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
                     Projetos Completos
                 </span>
-                <h2 class="fw-500" data-aos="fade-down" data-aos-duration="2000">
+                <h2 class="fw-500" data-aos="fade-down" data-aos-duration="2000" style="text-transform: none;">
                     Veja meu portfólio e me dê seu feedback
                 </h2>
             </div>
@@ -602,12 +602,11 @@
                 </div>
             </div>
             <div class="custom__hover">
-                <a href="protfolio-details.html" class="hover__circle mauto" data-aos="zoom-out-down"
-                    data-aos-duration="2000">
+                <a href="#" class="hover__circle mauto" data-aos="zoom-out-down" data-aos-duration="2000">
                     <span class="box">
                         <i class="bi bi-arrow-up-right"></i>
                         <span class="textmore">
-                            Click More Work
+                            Mais trabalhos
                         </span>
                     </span>
                 </a>
@@ -624,11 +623,10 @@
                     <div class="pro__metting__content">
                         <div class="project__head">
                             <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
-                                Need a Project?
-                            </span>
-                            <h2 class="fw-500" data-aos="fade-down" data-aos-duration="1600">
-                                Let's work together. fixed
-                                a meeting
+                                 Precisa de um projeto?
+                              </span>
+                            <h2 class="fw-500" data-aos="fade-down" data-aos-duration="1600" style="text-transform: none;">
+                                Vamos trabalhar juntos. vamos marcar uma reunião
                             </h2>
                         </div>
                         <div class="about__contbox__item pb-30" data-aos="fade-up" data-aos-duration="1000">
@@ -639,9 +637,8 @@
                                 <span class="ptext fz-18 mb-1 d-block">
                                     Email
                                 </span>
-                                <a href="index.html#0">
-                                    <span class="__cf_email__"
-                                        data-cfemail="badedbccd3ded7dbced3dbc9898989faddd7dbd3d694d9d5d7">[email&#160;protected]</span>
+                                <a href="index.html#0" style="text-transform: none;">
+                                    <span class="__cf_email__" data-cfemail="">contato@murillolimadev.com.br</span>
                                 </a>
                             </span>
                         </div>
@@ -651,10 +648,10 @@
                             </span>
                             <span class="box">
                                 <span class="ptext fz-18 mb-1 d-block">
-                                    Location
+                                    Localização
                                 </span>
                                 <a href="index.html#0">
-                                    Victoria Street London, England
+                                    Estreito, Maranhão
                                 </a>
                             </span>
                         </div>
@@ -677,7 +674,7 @@
                 <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
                     Services That i Provide
                 </span>
-                <h2 class="fw-500" data-aos="fade-up" data-aos-duration="1200">
+                <h2 class="fw-500" data-aos="fade-up" data-aos-duration="1200" style="text-transform: none;">
                     My special service for your business
                     development
                 </h2>
@@ -826,9 +823,9 @@
                     Processo de trabalho
                 </span>
                 <h2 class="fw-500" data-aos="fade-up" data-aos-duration="1000">
-                    Your dream website in just
+                    O site dos seus sonhos em
                     <span class="d-block">
-                        few steps
+                        poucos passos
                     </span>
                 </h2>
             </div>
@@ -836,7 +833,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6" data-aos="flip-up" data-aos-duration="500">
                     <div class="process__item">
                         <h2 class="white mb-24">
-                            Concept
+                            Conceito
                         </h2>
                         <p class="mb-30 pra fz-18">
                             Nemo enim ipsam voluptatem voluptas sit aspernatur aut odit aut fugit,
@@ -906,12 +903,12 @@
         <div class="container">
             <div class="project__head text-center">
                 <span class="common__sub" data-aos="fade-up" data-aos-duration="1000">
-                    Testimonial
+                    Depoimento
                 </span>
                 <h2 class="fw-500" data-aos="fade-down" data-aos-duration="1000">
-                    Happy Words From Happy
+                    Palavras felizes de
                     <span class="d-block">
-                        Customer
+                        Clientes
                     </span>
                 </h2>
             </div>
@@ -1005,8 +1002,8 @@
                 </div>
             </div>
             <div class="sponsor__area pt-120">
-                <h4 class="sponsor__title" data-aos="fade-down" data-aos-duration="1000">
-                    More than 100+ companies trusted us worldwide
+                <h4 class="sponsor__title" data-aos="fade-down" data-aos-duration="1000" style="text-transform: none">
+                    Mais de 100 empresas confiaram em nós em todo o mundo
                 </h4>
                 <div class="swiper sponsor__wrap">
                     <div class="swiper-wrapper">
@@ -1042,10 +1039,10 @@
                 <div class="col-xl-4 col-lg-3">
                     <div class="project__head">
                         <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
-                            My Blogs
+                            Meu Blog
                         </span>
                         <h2 class="fw-500 mt-3" data-aos="fade-down" data-aos-duration="1500">
-                            Recent Posts
+                            Postagens recentes
                         </h2>
                         <div class="blog__hoverbox">
                             <a href="blog.html" class="hover__circle wow fadeInUp" data-wow-duration="1.6s">
