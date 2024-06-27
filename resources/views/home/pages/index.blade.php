@@ -623,9 +623,10 @@
                     <div class="pro__metting__content">
                         <div class="project__head">
                             <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
-                                 Precisa de um projeto?
-                              </span>
-                            <h2 class="fw-500" data-aos="fade-down" data-aos-duration="1600" style="text-transform: none;">
+                                Precisa de um projeto?
+                            </span>
+                            <h2 class="fw-500" data-aos="fade-down" data-aos-duration="1600"
+                                style="text-transform: none;">
                                 Vamos trabalhar juntos. vamos marcar uma reunião
                             </h2>
                         </div>
@@ -668,151 +669,7 @@
     <!--<< project metting one >>-->
 
     <!--<< service >>-->
-    <section id="services" class="service__section overhid pt-120 pb-120">
-        <div class="container">
-            <div class="project__head text-center">
-                <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
-                    Services That i Provide
-                </span>
-                <h2 class="fw-500" data-aos="fade-up" data-aos-duration="1200" style="text-transform: none;">
-                    My special service for your business
-                    development
-                </h2>
-            </div>
-            <div class="service__uniquewrap">
-                <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="left__service">
-                        <div class="serial__adjust">
-                            <span>
-                                01
-                            </span>
-                            <div class="cont">
-                                <h5>
-                                    Designer
-                                </h5>
-                                <h2>
-                                    <a href="service.html">
-                                        Illustration Design
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-                        <p class="pra">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. sunt in culpa qui officia deserunt mollit
-                        </p>
-                    </div>
-                    <a href="service.html" class="common__icon">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
-                <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1200">
-                    <div class="left__service">
-                        <div class="serial__adjust">
-                            <span>
-                                02
-                            </span>
-                            <div class="cont">
-                                <h5>
-                                    Branding
-                                </h5>
-                                <h2>
-                                    <a href="service.html">
-                                        Business Branding
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-                        <p class="pra">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. sunt in culpa qui officia deserunt mollit
-                        </p>
-                    </div>
-                    <a href="service.html" class="common__icon">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
-                <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1400">
-                    <div class="left__service">
-                        <div class="serial__adjust">
-                            <span>
-                                03
-                            </span>
-                            <div class="cont">
-                                <h5>
-                                    UI/UX Design
-                                </h5>
-                                <h2>
-                                    <a href="service.html">
-                                        Web UI/UX Design
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-                        <p class="pra">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. sunt in culpa qui officia deserunt mollit
-                        </p>
-                    </div>
-                    <a href="service.html" class="common__icon">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
-                <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1600">
-                    <div class="left__service">
-                        <div class="serial__adjust">
-                            <span>
-                                04
-                            </span>
-                            <div class="cont">
-                                <h5>
-                                    Web Design
-                                </h5>
-                                <h2>
-                                    <a href="service.html">
-                                        Application Design
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-                        <p class="pra">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. sunt in culpa qui officia deserunt mollit
-                        </p>
-                    </div>
-                    <a href="service.html" class="common__icon">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
-                <div class="service__unique__item pb-40 pt-40" data-aos="fade-up" data-aos-duration="1800">
-                    <div class="left__service">
-                        <div class="serial__adjust">
-                            <span>
-                                05
-                            </span>
-                            <div class="cont">
-                                <h5>
-                                    SEO Analytics
-                                </h5>
-                                <h2>
-                                    <a href="service.html">
-                                        Digital Marketing
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-                        <p class="pra">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. sunt in culpa qui officia deserunt mollit
-                        </p>
-                    </div>
-                    <a href="service.html" class="common__icon">
-                        <i class="bi bi-arrow-up-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!--<< service >>-->
 
     <!--<< process >>-->
@@ -822,7 +679,7 @@
                 <span class="common__sub" data-aos="fade-down" data-aos-duration="1000">
                     Processo de trabalho
                 </span>
-                <h2 class="fw-500" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="fw-500" data-aos="fade-up" data-aos-duration="1000" style="text-transform: none">
                     O site dos seus sonhos em
                     <span class="d-block">
                         poucos passos
@@ -905,7 +762,7 @@
                 <span class="common__sub" data-aos="fade-up" data-aos-duration="1000">
                     Depoimento
                 </span>
-                <h2 class="fw-500" data-aos="fade-down" data-aos-duration="1000">
+                <h2 class="fw-500" data-aos="fade-down" data-aos-duration="1000" style="text-transform: none">
                     Palavras felizes de
                     <span class="d-block">
                         Clientes
@@ -986,54 +843,28 @@
                     </div>
                 </div>
                 <div class="quote">
-                    <img src="{{ asset('home/img/testimonial/quote.png') }}" alt="img">
+                    <img src="{{ asset('home/img/testimonial/quote.png') }}" alt="img"">
                 </div>
                 <div class="man1">
-                    <img src="{{ asset('home/img/testimonial/man1.png"') }} alt="img">
+                    <img src="{{ asset('home/img/testimonial/man1.png') }}" alt="img">
                 </div>
                 <div class="man2">
-                    <img src="{{ asset('home/img/testimonial/man3.png"') }} alt="img">
+                    {{-- <img src="{{ asset('home/img/testimonial/man3.png') }}" alt="img"> --}}
                 </div>
                 <div class="man3">
-                    <img src="{{ asset('home/img/testimonial/man2.png"') }} alt="img">
+                    {{-- <img src="{{ asset('home/img/testimonial/man2.png') }}" alt="img"> --}}
                 </div>
                 <div class="test__shape">
-                    <img src="{{ asset('home/img/testimonial/testi-arr') }}ow.png" alt="img">
+                    <img src="{{ asset('home/img/testimonial/testi-arrow.png') }}" alt="img">
                 </div>
             </div>
-            <div class="sponsor__area pt-120">
-                <h4 class="sponsor__title" data-aos="fade-down" data-aos-duration="1000" style="text-transform: none">
-                    Mais de 100 empresas confiaram em nós em todo o mundo
-                </h4>
-                <div class="swiper sponsor__wrap">
-                    <div class="swiper-wrapper">
-                        <div class="sponsor__slide swiper-slide">
-                            <img src="{{ asset('home/img/testimonial/partner1.png') }}" alt="img">
-                        </div>
-                        <div class="sponsor__slide swiper-slide">
-                            <img src="{{ asset('home/img/testimonial/partner2.png') }}" alt="img">
-                        </div>
-                        <div class="sponsor__slide swiper-slide">
-                            <img src="{{ asset('home/img/testimonial/partner3.png') }}" alt="img">
-                        </div>
-                        <div class="sponsor__slide swiper-slide">
-                            <img src="{{ asset('home/img/testimonial/partner4.png') }}" alt="img">
-                        </div>
-                        <div class="sponsor__slide swiper-slide">
-                            <img src="{{ asset('home/img/testimonial/partner6.png') }}" alt="img">
-                        </div>
-                        <div class="sponsor__slide swiper-slide">
-                            <img src="{{ asset('home/img/testimonial/partner2.png') }}" alt="img">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </section>
     <!--<< testimonial >>-->
 
     <!--<< blog >>-->
-    <section class="blog__section overhid pt-120 pb-120">
+    {{-- <section class="blog__section overhid pt-120 pb-120">
         <div class="container">
             <div class="row g-4">
                 <div class="col-xl-4 col-lg-3">
@@ -1133,7 +964,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--<< blog >>-->
 
 @endsection

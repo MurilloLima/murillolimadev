@@ -36,6 +36,7 @@
 
     @include('home.layouts.nav')
     @yield('content')
+    @include('home.layouts.footer')
 
     <!--<< Scroll To Top >>-->
     <div class="progress-wrap">
