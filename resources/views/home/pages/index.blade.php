@@ -177,7 +177,7 @@
                                                             </span>
                                                             <a href="">
                                                                 <span class="__cf_email__"
-                                                                    data-cfemail="">contato@murillolimadev.com.br</span>
+                                                                    style="text-transform: none">contato@murillolimadev.com.br</span>
                                                             </a>
                                                         </div>
                                                     </div>
@@ -858,7 +858,7 @@
                     <img src="{{ asset('home/img/testimonial/testi-arrow.png') }}" alt="img">
                 </div>
             </div>
-            
+
         </div>
     </section>
     <!--<< testimonial >>-->
