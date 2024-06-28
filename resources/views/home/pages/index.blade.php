@@ -70,27 +70,27 @@
             <div class="banner__xlsocial">
                 <ul class="banner__soci d-grid justify-content-center">
                     <li>
-                        <a href="index.html#0">
+                        <a href="https://www.facebook.com/murillolima00001">
                             <i class="bi bi-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#0">
+                        <a href="#">
                             <i class="bi bi-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#0">
+                        <a href="https://www.instagram.com/murillolima_/">
                             <i class="bi bi-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#0">
+                        <a href="#">
                             <i class="bi bi-globe"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="index.html#0">
+                        <a href="https://www.linkedin.com/in/murillo-lima-b3b764b8/">
                             <i class="bi bi-linkedin"></i>
                         </a>
                     </li>
@@ -214,27 +214,28 @@
                                                             </span>
                                                             <ul class="d-flex align-items-center gap-2 gap-xl-4">
                                                                 <li>
-                                                                    <a href="index.html#0">
+                                                                    <a href="https://www.facebook.com/murillolima00001">
                                                                         <i class="bi bi-facebook"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="index.html#0">
+                                                                    <a href="#">
                                                                         <i class="bi bi-twitter"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="index.html#0">
+                                                                    <a href="https://www.instagram.com/murillolima_/">
                                                                         <i class="bi bi-instagram"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="index.html#0">
+                                                                    <a href="#">
                                                                         <i class="bi bi-globe"></i>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="index.html#0">
+                                                                    <a
+                                                                        href="https://www.linkedin.com/in/murillo-lima-b3b764b8/">
                                                                         <i class="bi bi-linkedin"></i>
                                                                     </a>
                                                                 </li>
