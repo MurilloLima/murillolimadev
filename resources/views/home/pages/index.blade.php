@@ -107,16 +107,22 @@
                 <li class="marquee-item">
                     <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
                             src="home/img/banner/ts2.png" alt=""></span>
-                    <img src="{{ asset('home/img/banner/ts3.png') }}" alt=""> <span class="stroke-text"><img
-                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span>
+                    {{-- <img src="{{ asset('home/img/banner/ts3.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span> --}}
                     <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
                             src="{{ asset('home/img/banner/ts2.png') }}" alt=""></span>
-                    <img src="{{ asset('home/img/banner/ts3.png') }}" alt=""> <span class="stroke-text"><img
-                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span>
+                    {{-- <img src="{{ asset('home/img/banner/ts3.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span> --}}
                     <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
                             src="{{ asset('home/img/banner/ts2.png') }}" alt=""></span>
+                    {{-- <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts2.png') }}" alt=""></span>
+                             <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
+                            src="home/img/banner/ts2.png" alt=""></span>
                     <img src="{{ asset('home/img/banner/ts3.png') }}" alt=""> <span class="stroke-text"><img
-                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span>
+                            src="{{ asset('home/img/banner/ts4.png') }}" alt=""></span> --}}
+                    <img src="{{ asset('home/img/banner/ts1.png') }}" alt=""> <span class="stroke-text"><img
+                            src="{{ asset('home/img/banner/ts2.png') }}" alt=""></span>
                 </li>
             </ul>
         </div>
@@ -127,8 +133,8 @@
     <section class="about__section pt-120 pb-120" id="about">
         <div class="container">
             <div class="personal__head text-center">
-                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star"
-                    data-aos="fade-up" data-aos-duration="1000">
+                <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star" data-aos="fade-up"
+                    data-aos-duration="1000">
                 <p class="descrp" data-aos="fade-up" data-aos-duration="1500">
                     Sou Murillo Lima, trabalho de forma independente, atuo com o desenvolvimento web e mobile.
                 </p>
