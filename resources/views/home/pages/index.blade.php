@@ -593,7 +593,7 @@
                                             {{ $item->tec }}
                                         </h3>
                                     </a>
-                                    <a href="{{ asset('upload/projetos/' . $item->image) }}" class="common__icon imgc">
+                                    <a href="{{ $item->url }}" class="common__icon imgc">
                                         <i class="bi bi-arrow-up-right"></i>
                                     </a>
                                 </div>
