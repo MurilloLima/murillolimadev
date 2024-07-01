@@ -586,7 +586,7 @@
 
                     <div class="project__wraptwo">
                         @foreach ($projetos2 as $item)
-                            <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="2200">
+                            <div class="project__item cus__mb60" data-aos="fade-up" data-aos-duration="1000">
                                 <a href="{{ asset('upload/projetos/' . $item->image) }}" class="thumb mb-30 imgc">
                                     <img src="{{ asset('upload/projetos/' . $item->image) }}" alt="img">
                                 </a>
@@ -599,7 +599,7 @@
                                             {{ $item->tec }}
                                         </h3>
                                     </a>
-                                    <a href="{{ $item->url }}" class="common__icon imgc">
+                                    <a href="{{ $item->url }}" target="_blank" class="common__icon">
                                         <i class="bi bi-arrow-up-right"></i>
                                     </a>
                                 </div>
@@ -763,111 +763,7 @@
     <!--<< process >>-->
 
     <!--<< testimonial >>-->
-    <section class="testimonial__section pt-120 pb-120" id="testi">
-        <div class="container">
-            <div class="project__head text-center">
-                <span class="common__sub" data-aos="fade-up" data-aos-duration="1000">
-                    Depoimento
-                </span>
-                <h2 class="fw-500" data-aos="fade-down" data-aos-duration="1000" style="text-transform: none">
-                    Palavras felizes de
-                    <span class="d-block">
-                        Clientes
-                    </span>
-                </h2>
-            </div>
-            <div class="testimonial__v1wrap pb-120" data-aos="fade-up" data-aos-duration="1000">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="swiper testimonial__slidewrap">
-                            <div class="swiper-wrapper">
-                                <div class="test__slide swiper-slide">
-                                    <div class="d-flex mb-40 align-items-center gap-2">
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                    </div>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available, by injected humour,
-                                        or randomised words which don't look even slightly believable. If you are going to
-                                        use a passage of Lorem Ipsum, you need to be hidden in middle of text. All the Lorem
-                                        Ipsum generators
-                                    </p>
-                                    <h4 class="base mb-2">
-                                        Shawn Beltran
-                                    </h4>
-                                    <span class="fz-18 ptext">
-                                        Business Owner
-                                    </span>
-                                </div>
-                                <div class="test__slide swiper-slide">
-                                    <div class="d-flex mb-40 align-items-center gap-2">
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                    </div>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available, by injected humour,
-                                        or randomised words which don't look even slightly believable. If you are going to
-                                        use a passage of Lorem Ipsum, you need to be hidden in middle of text. All the Lorem
-                                        Ipsum generators
-                                    </p>
-                                    <h4 class="base mb-2">
-                                        John Methcel
-                                    </h4>
-                                    <span class="fz-18 ptext">
-                                        Business Owner
-                                    </span>
-                                </div>
-                                <div class="test__slide swiper-slide">
-                                    <div class="d-flex mb-40 align-items-center gap-2">
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                        <i class="bi bi-star-fill ratting fz-20"></i>
-                                    </div>
-                                    <p>
-                                        There are many variations of passages of Lorem Ipsum available, by injected humour,
-                                        or randomised words which don't look even slightly believable. If you are going to
-                                        use a passage of Lorem Ipsum, you need to be hidden in middle of text. All the Lorem
-                                        Ipsum generators
-                                    </p>
-                                    <h4 class="base mb-2">
-                                        Nethon Jr
-                                    </h4>
-                                    <span class="fz-18 ptext">
-                                        Business Owner
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination3"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="quote">
-                    <img src="{{ asset('home/img/testimonial/quote.png') }}" alt="img"">
-                </div>
-                <div class="man1">
-                    <img src="{{ asset('home/img/testimonial/man1.png') }}" alt="img">
-                </div>
-                <div class="man2">
-                    {{-- <img src="{{ asset('home/img/testimonial/man3.png') }}" alt="img"> --}}
-                </div>
-                <div class="man3">
-                    {{-- <img src="{{ asset('home/img/testimonial/man2.png') }}" alt="img"> --}}
-                </div>
-                <div class="test__shape">
-                    <img src="{{ asset('home/img/testimonial/testi-arrow.png') }}" alt="img">
-                </div>
-            </div>
-
-        </div>
-    </section>
+   
     <!--<< testimonial >>-->
 
     <!--<< blog >>-->
